@@ -1,0 +1,40 @@
+/** @format */
+
+.card-div {
+  width: 48%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border: 0.5px solid rgb(207, 207, 207);
+  cursor: pointer;
+}
+.card-div p {
+  margin: 3px 0 3px 0;
+}
+.right-div {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+  right: 2px;
+  top: 5px;
+}
+.right-div i {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.right-div:hover {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  background-color: rgb(160, 160, 160);
+  border-radius: 50%;
+  text-align: center;
+  font-weight: bold;
+}

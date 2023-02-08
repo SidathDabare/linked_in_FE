@@ -1,0 +1,22 @@
+/** @format */
+
+/* .modal-container {
+  min-width: 700px;
+} */
+/* .modal-container-content {
+  min-width: 700px;
+} */
+.modal-dialog {
+  min-height: 700px;
+  min-width: 700px;
+  max-height: 90vh;
+  border-radius: 20px;
+}
+.modal-content {
+  min-width: 700px;
+  max-height: 90vh;
+  overflow-y: scroll;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}

@@ -1,0 +1,128 @@
+/** @format */
+
+.profile-container {
+  background-color: rgb(255, 255, 255);
+  width: 250px;
+  height: 370px;
+  border-radius: 10px;
+  border: 0.5px solid rgb(207, 207, 207);
+}
+@media only screen and (max-width: 750px) {
+  .profile-container {
+    width: 88%;
+    min-width: 500px;
+    margin: 0 auto;
+  }
+}
+/* @media only screen and (max-width: 600px) {
+  .profile-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+} */
+.header {
+  position: relative;
+  width: 100%;
+  height: 180px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px 10px 0 0;
+}
+.cover-image-div {
+  width: 100%;
+  min-width: 100%;
+  height: 70px;
+  background-size: cover;
+  border-radius: 10px 10px 0 0;
+}
+.cover-image {
+  width: 100%;
+  min-width: 100%;
+  height: 70px;
+  border-radius: 10px 10px 0 0;
+}
+.profile-deatails {
+  text-align: center;
+  margin-top: 35px;
+}
+.profile-deatails strong {
+  font-size: 15px;
+  cursor: pointer;
+}
+.profile-deatails a {
+  text-decoration: none;
+  color: rgb(88, 88, 88);
+}
+.profile-deatails a:hover {
+  text-decoration: none;
+  border: none;
+  color: rgb(65, 64, 64);
+}
+.profile-deatails p {
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.image-container {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 25px;
+
+  cursor: pointer;
+}
+.profile-image {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 1px;
+  bottom: 0;
+  object-fit: contain;
+}
+.connection-details p {
+  margin-bottom: 0;
+  font-size: 13px;
+}
+.connection-details strong {
+  margin-bottom: 0;
+  font-size: 14px;
+  color: rgb(98, 98, 98);
+}
+.connection-count strong {
+  font-size: 14px;
+  color: rgb(1, 108, 184);
+}
+.section-1 {
+  border-top: 0.5px solid rgb(207, 207, 207);
+}
+
+.section-1:hover {
+  background-color: rgb(242, 241, 241);
+  cursor: pointer;
+}
+.section-2:hover {
+  background-color: rgb(242, 241, 241);
+  cursor: pointer;
+}
+
+.section-3:hover {
+  background-color: rgb(242, 241, 241);
+  cursor: pointer;
+}
+.section-2,
+.section-3 {
+  font-size: 14px;
+  color: rgb(98, 98, 98);
+}
+.section-2 {
+  border-top: 0.5px solid rgb(207, 207, 207);
+  border-bottom: 0.5px solid rgb(207, 207, 207);
+}

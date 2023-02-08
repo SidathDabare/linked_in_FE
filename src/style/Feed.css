@@ -1,0 +1,81 @@
+/** @format */
+
+.feed {
+  width: 300px;
+  height: 450px;
+  border-radius: 10px;
+  border: 0.5px solid rgb(207, 207, 207);
+  background-color: rgb(255, 255, 255);
+}
+@media only screen and (max-width: 1000px) {
+  /* place here CSS for when the screen is less than 1000px wide */
+  .feed {
+    display: none;
+  }
+}
+
+.feed div strong {
+  color: rgb(103, 103, 103);
+}
+.single-profile-div {
+  height: 120px;
+  min-height: 120px;
+  max-height: 120px;
+}
+.users-profile-image {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+}
+.user-details {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.user-details small {
+  font-size: 12px;
+  line-height: 0px;
+}
+.feed-bottom-text {
+  position: relative;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(103, 103, 103);
+  bottom: 2px;
+}
+.feed-bottom-icon {
+  margin: 5px 0 -2px 5px;
+  text-decoration: none;
+  color: rgb(103, 103, 103);
+}
+.user-page-link {
+  text-decoration: none;
+  border: none;
+}
+.user-page-link:hover {
+  text-decoration: none;
+  border: none;
+  color: rgb(65, 64, 64);
+}
+.follow-btn {
+  background-color: transparent !important;
+  border: 1px solid rgb(182, 182, 182) !important;
+  border-radius: 20px !important;
+}
+.follow-btn strong {
+  color: rgb(114, 114, 114);
+  font-weight: 600;
+}
+.follow-btn:hover strong {
+  color: rgb(52, 52, 52);
+}
+.follow-btn:hover i {
+  color: rgb(113, 113, 113);
+}
+.follow-btn:hover {
+  background-color: transparent !important;
+  border: 1px solid rgb(82, 82, 82) !important;
+}

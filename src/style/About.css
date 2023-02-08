@@ -1,0 +1,38 @@
+/** @format */
+@media only screen and (max-width: 750px) {
+  .about {
+    display: none;
+  }
+}
+.about {
+  background-color: rgb(255, 255, 255);
+  width: 250px;
+  height: 150px;
+  margin-top: 1rem;
+  border: 0.5px solid rgb(207, 207, 207);
+  border-radius: 10px;
+}
+.link-container {
+  width: 90%;
+}
+.link-container p {
+  margin: 8px 0;
+}
+.plus-container {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-items: flex-end;
+}
+.discover-div {
+  border-top: 0.5px solid rgb(207, 207, 207);
+  text-align: center;
+}
+.discover-div:hover {
+  background-color: rgb(236, 236, 236);
+  cursor: pointer;
+}
+.discover-div p {
+  padding: 5px 5px;
+  cursor: pointer;
+}

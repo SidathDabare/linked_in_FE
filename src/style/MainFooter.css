@@ -1,0 +1,46 @@
+/** @format */
+
+.icon-size-small {
+  font-size: 24px;
+  color: rgb(94, 94, 94);
+}
+.main-footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+
+  /* background-color: rgb(114, 115, 116); */
+}
+.my-footer-logo {
+  height: 25px;
+}
+.footer-div {
+  width: 200px;
+}
+.footer-div p {
+  margin-bottom: 2px;
+  padding: 3px 20px 0 0;
+  font-size: 13px;
+  cursor: pointer;
+}
+.footer-div-link {
+  margin-bottom: 2px;
+  padding: 3px 20px 0 3px;
+  font-size: 15px;
+  width: 210px;
+}
+.footer-div-link p {
+  margin-bottom: 2px;
+  cursor: pointer;
+  color: rgb(94, 94, 94);
+}
+.footer-div-last {
+  margin-bottom: 2px;
+  padding: 3px 20px 0 3px;
+  font-size: 13px;
+  width: 250px;
+}
+select.language-select {
+  border: 1px solid rgb(70, 70, 70);
+}

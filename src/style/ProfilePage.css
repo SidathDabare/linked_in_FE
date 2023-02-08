@@ -1,0 +1,279 @@
+/** @format */
+.right-container {
+  margin-top: 60px;
+}
+.left-container {
+  width: 70%;
+  min-width: 70%;
+  height: auto;
+  margin-top: 60px !important;
+}
+.my-profile-div {
+  min-width: 100%;
+  height: 550px;
+  border: 0.5px solid rgb(207, 207, 207);
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.profile-header-div {
+  position: relative;
+  width: 100%;
+  min-width: 100%;
+}
+
+.profile-cover-div {
+  min-width: 100%;
+  max-height: 50%;
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+}
+.my-cover-image {
+  min-width: 100%;
+  border-radius: 10px 10px 0 0;
+  border: none;
+  min-height: 50%;
+}
+@media only screen and (max-width: 1000px) {
+  /* .profile-main-container {
+    min-width: 100%;
+    padding: 0 5px 0 5px !important;
+    margin: 0 5px 0 5px !important;
+  } */
+  .left-container {
+    width: 60%;
+    min-width: 500px;
+    height: auto;
+  }
+  .my-profile-div {
+    max-width: 100%;
+  }
+  .profile-cover-div {
+    width: 100%;
+    min-width: 100%;
+    min-height: 50%;
+  }
+  .right-container {
+    width: 37% !important;
+    min-width: 37%;
+  }
+
+  .profile-header-div {
+    width: 100%;
+    min-width: 100%;
+  }
+  .profile-cover-div {
+    width: 100%;
+    min-width: 100%;
+  }
+  .my-cover-image {
+    width: 100%;
+    min-width: 100%;
+  }
+  .my-image-container {
+    max-width: 100px;
+    max-height: 100px;
+  }
+  .my-profile-image {
+    max-width: 90px;
+    max-height: 90px;
+    object-fit: contain;
+  }
+  .my-profile-section02 {
+    max-width: 100%;
+  }
+  .my-profile-section03 {
+    max-width: 100%;
+  }
+  .my-profile-section04 {
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .profile-main-container {
+    max-width: 100%;
+    padding: 0 5px 0 5px !important;
+    margin: 0 5px 0 5px !important;
+  }
+  .profile-cover-div {
+    width: 110%;
+    max-width: 100%;
+  }
+  .my-profile-div {
+    max-width: 95%;
+  }
+  .left-container {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  .right-container {
+    display: none;
+  }
+
+  .profile-header-div {
+    width: 100%;
+    min-width: 100%;
+  }
+  .profile-cover-div {
+    width: 100%;
+    min-width: 100%;
+  }
+  .my-cover-image {
+    width: 100%;
+    min-width: 100%;
+  }
+  .my-profile-section02 {
+    max-width: 95%;
+  }
+  .my-profile-section03 {
+    max-width: 95%;
+  }
+  .my-profile-section04 {
+    max-width: 95%;
+  }
+}
+.camera-div {
+  background-color: rgb(255, 255, 255);
+  width: 35px;
+  height: 35px;
+  font-size: 17px;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  right: 10px;
+  top: 16px;
+  cursor: pointer;
+}
+i.bi-camera-fill {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding: 5px;
+}
+i.bi-camera-fill:hover {
+  color: rgb(5, 181, 181);
+}
+
+.my-image-container {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  margin: auto;
+  left: 20px;
+  top: 85px;
+  cursor: pointer;
+}
+.my-profile-image {
+  object-fit: contain;
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: -1px;
+  bottom: 0;
+}
+.my-profile-deatails {
+  width: 100%;
+  margin-top: 50px;
+  position: relative;
+}
+.edit-btn {
+  background-color: rgb(213, 213, 213);
+  width: 35px;
+  height: 35px;
+  font-size: 17px;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  right: 10px;
+  top: 16px;
+  cursor: pointer;
+}
+.edit-btn i {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding: 5px;
+}
+.edit-btn:hover {
+  background-color: rgb(222, 219, 219);
+}
+.edit-btn i:hover {
+  color: rgb(5, 144, 144);
+}
+.my-profile-deatails div small {
+  color: rgb(4, 104, 154);
+  font-weight: bold;
+  font-size: 14px;
+}
+.contact-info a {
+  color: rgb(4, 104, 154);
+  text-decoration: none;
+  font-weight: bold;
+}
+.contact-info a:hover {
+  color: rgb(1, 60, 89);
+  text-decoration: none;
+}
+.my-profile-deatails p {
+  margin-bottom: 0;
+}
+.action-container {
+  width: 100%;
+}
+
+.right-container {
+  width: 28%;
+  height: auto;
+}
+.add-info-div {
+  width: 100%;
+  height: auto;
+  border: 0.5px solid rgb(207, 207, 207);
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+.add-info-div div span {
+  cursor: pointer;
+}
+.my-profile-section02 {
+  width: 100%;
+  height: auto;
+  border: 0.5px solid rgb(207, 207, 207);
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+.progress {
+  height: 8px !important;
+}
+.progress-bar {
+  height: 8px;
+  background-color: rgb(3, 48, 89) !important;
+}
+.my-profile-section03 {
+  width: 100%;
+  height: auto;
+  border: 0.5px solid rgb(207, 207, 207);
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+.icon-size {
+  font-size: 30px;
+}
+.my-profile-section04 {
+  width: 100%;
+  height: auto;
+  border: 0.5px solid rgb(207, 207, 207);
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}

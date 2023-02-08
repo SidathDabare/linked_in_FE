@@ -1,0 +1,38 @@
+/** @format */
+
+.signin-div {
+  min-width: 400px;
+}
+.signIn-logo {
+  height: 27px;
+  margin-left: 50px;
+}
+.hr-line {
+  margin-top: 4px;
+  height: 0.2px;
+  width: 90%;
+  max-width: 90%;
+  background-color: rgb(143, 143, 143);
+}
+.footer-signIn-logo {
+  height: 15px;
+}
+.signin-footer {
+  margin-top: 60px;
+  justify-content: space-between;
+}
+.signin-footer p a {
+  width: 100%;
+  font-size: 13px;
+  color: rgb(95, 95, 95);
+}
+.signin-footer p a:hover {
+  font-size: 13px;
+  color: rgb(5, 69, 128);
+  text-decoration: underline;
+}
+@media only screen and (max-width: 1400px) {
+  .signin-footer div {
+    flex-direction: column;
+  }
+}

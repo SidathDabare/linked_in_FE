@@ -1,0 +1,20 @@
+/** @format */
+.home-main-container {
+  width: 100%;
+}
+/* .home-container {
+  margin-top: 10vh;
+} */
+@media only screen and (max-width: 1000px) {
+  .home-main-container {
+    min-width: 100vw !important;
+  }
+  .home-container {
+    min-width: 95%;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .home-container {
+    flex-direction: column;
+  }
+}
